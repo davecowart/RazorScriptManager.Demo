@@ -1,0 +1,9 @@
+C:\Projects\demo\RazorScriptManager\RazorScriptManager\bin\RazorScriptManager.dll
+C:\Projects\demo\RazorScriptManager\RazorScriptManager\bin\RazorScriptManager.pdb
+C:\Projects\demo\RazorScriptManager\RazorScriptManager\bin\EcmaScript.NET.modified.dll
+C:\Projects\demo\RazorScriptManager\RazorScriptManager\bin\EntityFramework.dll
+C:\Projects\demo\RazorScriptManager\RazorScriptManager\bin\Yahoo.Yui.Compressor.dll
+C:\Projects\demo\RazorScriptManager\RazorScriptManager\bin\EntityFramework.xml
+C:\Projects\demo\RazorScriptManager\RazorScriptManager\obj\Debug\ResolveAssemblyReference.cache
+C:\Projects\demo\RazorScriptManager\RazorScriptManager\obj\Debug\RazorScriptManager.dll
+C:\Projects\demo\RazorScriptManager\RazorScriptManager\obj\Debug\RazorScriptManager.pdb

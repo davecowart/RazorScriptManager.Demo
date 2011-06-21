@@ -1,0 +1,22 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>RazorScriptManager Demo</title>
+	@*This is how you add a site-wide stylesheet*@
+	@Script.AddCss("~/Content/Site.css", siteWide: true)
+	@*This is how you add a site-wide CDN-hosted script with its debugging-friendly local version*@
+	@Script.AddJavaScript(localPath: "~/Scripts/jquery-1.6.1.js", cdnPath: "https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js", siteWide: true)
+	@*This is how you add a site-wide non-CDN-hosted script*@
+	@Script.AddJavaScript(localPath: "~/Scripts/modernizr-2.0.6-development-only.js", siteWide: true)
+	@*This is how you output the combined/compressed CSS*@
+	@Script.OutputCss()
+</head>
+<body>
+	<div>
+		@RenderBody()
+	</div>
+	@*This is how you output the combined compressed scripts*@
+	@Script.OutputJavaScript()
+</body>
+</html>
